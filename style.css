@@ -1,0 +1,119 @@
+    body {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh; 
+        margin: 0;
+         background-color: aliceblue;
+         font-family: 'Josefin Sans', sans-serif;
+}
+.box1{
+    height: 50vh;
+    width:50vb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius:16px;
+    box-shadow: #b6b5b5 0px 0px 10px 0px ;
+    margin-top: 0px;
+    border: 1px solid white;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.box2{
+    height: 60vh;
+    width: 50vb;
+    background-color: rgb(89, 248, 182);
+    border-radius: 16px 16px 0 0;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.profile{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    border:5px solid white;
+    margin-bottom: -20px;
+    background-color: aliceblue;
+    box-shadow: #b1b2b3 0px 0px 5px 0px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.button{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.social-media{
+    margin-top: 10px;
+    margin-bottom: 20px; 
+}
+
+.about{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(89, 248, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    color: #fff;
+}
+
+.about:hover{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(89, 248, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 18px;
+    color: #fff;
+    box-shadow: #b1b2b3 0px 0px 10px 0px;
+    font-weight: bold;
+}
+
+.hire-Me{
+    margin-left: 20px;
+    height: 35px;
+    width: 100px;
+    background-color: rgb(89, 248, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 18px;
+    color: #fff;
+}
+
+.hire-Me:hover{
+    margin-left: 20px;
+    height: 35px;
+    width: 100px;
+    background-color: rgb(89, 248, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 18px;
+    color: #fff;
+    box-shadow: #b1b2b3 0px 0px 10px 0px;
+    font-weight: bold;
+}
+
+.stats{
+    margin-top: 10px;
+    column-gap: normal;
+    margin-bottom: 20px;
+}
